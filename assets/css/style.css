@@ -1,22 +1,59 @@
-/**
-* Template Name: Personal - v4.8.1
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
+@font-face {
+    font-family: "Angleton";
+    src: url(fonts/Angleton.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+@font-face {
+    font-family: "AngletonRegular";
+    src: url(fonts/AngletonRegular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: "Aegean";
+    src: url(fonts/Aegean.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Default styling */
+.portfolio-title {
+    font-size: 60px !important;
+    letter-spacing: -5px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) { /* Tablet and smaller screens */
+    .portfolio-title {
+      font-size: 35px !important; /* Ensures the font-size applies */
+      letter-spacing: -2px !important;
+
+    }
+  }
+  
+  @media (max-width: 480px) { /* Mobile screens */
+    .portfolio-title {
+      font-size: 35px !important; /* Ensures the font-size applies */
+      letter-spacing: -1px !important;
+    }
+  }
+  
+
+.angletonregular{font-family: "AngletonRegular", sans-serif;}
+.aegean{font-family: "Aegean", sans-serif;}
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: #040404;
     color: #fff;
     position: relative;
     background: transparent;
 }
+
+
 
 body::before {
     content: "";
@@ -37,23 +74,27 @@ body::before {
 }
 
 a {
-    color: #a66e19;
+    color: #d98d1b;
     text-decoration: none;
 }
 
 a:hover {
-    color: #35e888;
+    color: #ffc472;
     text-decoration: none;
 }
 
-h1,
+h1
 h2,
-h3,
 h4,
 h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
+h3 {
+    font-family: "Aegean", sans-serif;
+}
+
+
 
 .bg-i {
     width: 25vw;
@@ -91,6 +132,7 @@ h6 {
 #header * {
     transition: ease-in-out 0.3s;
 }
+
 
 #header h1 {
     font-size: 48px;
@@ -255,7 +297,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", serif, sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
@@ -393,9 +435,10 @@ section.section-show {
 }
 
 section .container {
-    background: #3e2a06af;
+    background: #3e2a06f0;
     padding: 30px;
 }
+
 
 @media (max-width: 768px) {
     section {
@@ -414,7 +457,7 @@ section .container {
     margin: 0 0 20px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #aaaaaa;
+    color: #f8f4e1;
     font-family: "Poppins", sans-serif;
 }
 
@@ -433,8 +476,8 @@ section .container {
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #fff;
+    font-family: "AngletonRegular", sans-serif;
+    color: #f8f4e1;
 }
 
 
@@ -445,7 +488,7 @@ section .container {
 .about-me .content h3 {
     font-weight: 700;
     font-size: 26px;
-    color: #a66e19;
+    color: #f8f4e1;
 }
 
 .about-me .content ul {
@@ -499,7 +542,7 @@ section .container {
     font-size: 24px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px;
-    color: #a66e19;
+    color: #ffbb78;
     border-radius: 50px;
     line-height: 0;
 }
@@ -671,7 +714,6 @@ section .container {
     background-color: #a66e19;
 }
 
-
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -681,7 +723,7 @@ section .container {
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #f8f4e1;
 }
 
 .resume .resume-item {
@@ -695,9 +737,8 @@ section .container {
     line-height: 18px;
     font-size: 18px;
     font-weight: 600;
-    text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #a66e19;
+    font-family: 'Angleton', Times, serif, sans-serif;
+    color: #e6b872;
     margin-bottom: 10px;
 }
 
@@ -1064,7 +1105,7 @@ section .container {
 
 .contact .info-box i.bx {
     font-size: 24px;
-    color: #a66e19;
+    color: #ffbb78;
     border-radius: 50%;
     padding: 14px;
     float: left;
@@ -1073,7 +1114,7 @@ section .container {
 
 .contact .info-box h3 {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color:#f8f4e1;
     font-weight: 700;
     margin: 10px 0 8px 68px;
 }
