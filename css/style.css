@@ -1444,7 +1444,8 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-weight: bold;
   color: #643b15;
-  margin-bottom: 15px; }
+  margin-bottom: 15px; 
+font-size: 25px;}
 
   .year-experience-99301:before {
     z-index: -1;
